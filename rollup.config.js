@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript2';
+import typescript from "rollup-plugin-typescript2";
 
 const config = {
   input: "src/index.tsx",
@@ -9,8 +9,6 @@ const config = {
     }
   ],
   external: ["react"],
-  plugins: [
-    typescript()
-  ]
+  plugins: [typescript()]
 };
 export default config;
