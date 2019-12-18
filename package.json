@@ -1,0 +1,16 @@
+{
+  "name": "yumi-ui-ts",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Jay Gao <gaoljie@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "devDependencies": {
+    "rollup": "^1.27.13",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^3.7.3"
+  }
+}
