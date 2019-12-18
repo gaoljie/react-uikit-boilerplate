@@ -1,17 +1,14 @@
 import typescript from 'rollup-plugin-typescript2';
 
 const config = {
-  input: "src/index.ts",
+  input: "src/index.tsx",
   output: [
     {
-      format: "cjs",
-      file: "dist/index.js"
-    },
-    {
       format: "es",
-      file: "dist/index.mjs"
+      file: "dist/index.js"
     }
   ],
+  external: ["react"],
   plugins: [
     typescript()
   ]
