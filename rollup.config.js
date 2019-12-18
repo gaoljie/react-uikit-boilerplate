@@ -1,7 +1,8 @@
 import typescript from "rollup-plugin-typescript2";
+import resolve from "@rollup/plugin-node-resolve";
 
 const config = {
-  input: "src/index.tsx",
+  input: "src/index.ts",
   output: [
     {
       format: "es",
@@ -9,6 +10,6 @@ const config = {
     }
   ],
   external: ["react"],
-  plugins: [typescript()]
+  plugins: [typescript(), resolve()]
 };
 export default config;

@@ -2,13 +2,40 @@
   "name": "react-uikit-boilerplate",
   "version": "1.0.1",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Jay Gao <gaoljie@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "prepare": "rimraf dist && npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm version patch && npm publish && rimraf dist"
+    }
+  },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      ".story.js"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "jest --bail --coverage --findRelatedTests",
+      "git add"
+    ]
   },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^6.0.0",
     "@types/jest": "^24.0.24",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
@@ -30,29 +57,5 @@
     "rollup-plugin-typescript2": "^0.25.3",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"
-  },
-  "jest": {
-    "coveragePathIgnorePatterns": [
-      ".story.js"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>/jest.setup.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "prettier --write",
-      "eslint --fix",
-      "jest --bail --coverage --findRelatedTests",
-      "git add"
-    ]
   }
 }
