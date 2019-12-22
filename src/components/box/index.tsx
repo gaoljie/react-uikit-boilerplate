@@ -108,9 +108,7 @@ export interface BoxProps {
   pb?: string;
 }
 
-const Box: React.FC<BoxProps> = props => <div {...props} />;
-
-const StyledBox = styled(Box)`
+const StyledBox = styled.div<BoxProps>`
   ${({
     dp,
     fd,
@@ -234,5 +232,7 @@ const StyledBox = styled(Box)`
      }
     `}
 `;
+
+const Box: React.FC<BoxProps> = props => <StyledBox {...props} />;
 
 export default StyledBox;
