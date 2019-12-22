@@ -8,8 +8,7 @@
   "scripts": {
     "dev": "start-storybook",
     "build": "rollup -c",
-    "prepublishOnly": "rimraf dist && npm run build && npm version patch",
-    "postpublish": "rimraf dist"
+    "prepublishOnly": "rimraf dist && npm run build && npm version patch"
   },
   "husky": {
     "hooks": {
