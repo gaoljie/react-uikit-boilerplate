@@ -235,4 +235,4 @@ const StyledBox = styled.div<BoxProps>`
 
 const Box: React.FC<BoxProps> = props => <StyledBox {...props} />;
 
-export default StyledBox;
+export default Box;
