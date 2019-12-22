@@ -9,7 +9,7 @@ const config = {
       file: "dist/index.js"
     }
   ],
-  external: ["react"],
+  external: ["react", "styled-components"],
   plugins: [typescript(), resolve()]
 };
 export default config;
