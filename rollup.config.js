@@ -5,7 +5,7 @@ const config = {
   input: "src/index.ts",
   output: [
     {
-      format: "es",
+      format: "cjs",
       file: "dist/index.js"
     }
   ],
