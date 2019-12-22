@@ -52,8 +52,6 @@ function getCSSAttrWithSize(
 }
 
 export interface BoxProps {
-  children?: React.ReactNode;
-  as?: string;
   lh?: string;
   dp?:
     | "block"
@@ -110,7 +108,7 @@ export interface BoxProps {
   pb?: string;
 }
 
-const Box = styled.div<BoxProps>`
+const StyledBox = styled.div<BoxProps>`
   ${({
     dp,
     fd,
@@ -234,5 +232,7 @@ const Box = styled.div<BoxProps>`
      }
     `}
 `;
+
+const Box: React.FC<BoxProps> = props => <StyledBox {...props} />;
 
 export default Box;
