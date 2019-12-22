@@ -53,6 +53,7 @@ function getCSSAttrWithSize(
 
 export interface BoxProps {
   lh?: string;
+  as?: string;
   dp?:
     | "block"
     | "flex"
