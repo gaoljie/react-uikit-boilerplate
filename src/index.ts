@@ -1,2 +1,2 @@
 export * from "./components/hello/index";
-export * from "./components/box/index";
+export { default as Box } from "./components/box";
