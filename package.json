@@ -1,6 +1,6 @@
 {
   "name": "react-uikit-boilerplate",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "Jay Gao <gaoljie@gmail.com>",
