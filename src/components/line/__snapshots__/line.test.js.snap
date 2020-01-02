@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Line Matches the snapshot 1`] = `
+.c0 {
+  height: 5px;
+  color: black;
+  background-color: black;
+  height: 5px;
+}
+
+<Styled(styled.div)
+  color="black"
+  height="5px"
+>
+  <StyledComponent
+    color="black"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  ",
+            [Function],
+            "
+",
+            "
+  background-color: ",
+            [Function],
+            ";
+  height: ",
+            [Function],
+            ";
+",
+          ],
+        },
+        "displayName": "Styled(styled.div)",
+        "foldedComponentIds": Array [
+          "sc-bdVaJa",
+        ],
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    height="5px"
+  >
+    <div
+      className="c0"
+      color="black"
+      height="5px"
+    />
+  </StyledComponent>
+</Styled(styled.div)>
+`;

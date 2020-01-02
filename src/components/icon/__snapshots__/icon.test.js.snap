@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Circle Matches the snapshot 1`] = `
+.c0 {
+  width: 2px;
+  height: 2px;
+}
+
+<Icon
+  name="star"
+  width="2px"
+>
+  <Styled(styled.div)
+    as="svg"
+    height="2px"
+    name="star"
+    width="2px"
+  >
+    <StyledComponent
+      as="svg"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      height="2px"
+      name="star"
+      width="2px"
+    >
+      <svg
+        className="c0"
+        height="2px"
+        name="star"
+        width="2px"
+      >
+        <use
+          xlinkHref="#star"
+        />
+      </svg>
+    </StyledComponent>
+  </Styled(styled.div)>
+</Icon>
+`;

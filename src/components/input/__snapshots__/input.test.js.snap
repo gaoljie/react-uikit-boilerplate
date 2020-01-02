@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Input Matches the snapshot 1`] = `
+.c0 {
+  width: 200px;
+  border: 1px solid #EF6F35;
+  box-sizing: border-box;
+  padding-left: 16px;
+  height: 38px;
+  font-size: 16px;
+  outline: none;
+}
+
+<Input
+  name="email"
+  placeholder="Please Input Email"
+  type="email"
+  value="aa@bb.com"
+  width="200px"
+>
+  <Styled(styled.div)
+    as="input"
+    name="email"
+    placeholder="Please Input Email"
+    type="email"
+    value="aa@bb.com"
+    width="200px"
+  >
+    <StyledComponent
+      as="input"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  border: 1px solid ",
+              "#EF6F35",
+              ";
+  box-sizing: border-box;
+  padding-left: 16px;
+  height: 38px;
+  font-size: 16px;
+  outline: none;
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      name="email"
+      placeholder="Please Input Email"
+      type="email"
+      value="aa@bb.com"
+      width="200px"
+    >
+      <input
+        className="c0"
+        name="email"
+        placeholder="Please Input Email"
+        type="email"
+        value="aa@bb.com"
+        width="200px"
+      />
+    </StyledComponent>
+  </Styled(styled.div)>
+</Input>
+`;

@@ -95,5 +95,8 @@
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.4",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@types/react-lazyload": "^2.6.0"
   }
 }
