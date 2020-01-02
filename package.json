@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@rollup/plugin-node-resolve": "^6.0.0",
     "@storybook/addon-info": "^5.2.8",
