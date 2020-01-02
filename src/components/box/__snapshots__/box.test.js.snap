@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Box Matches the snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 18px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 180px;
+  height: 100px;
+  color: black;
+  line-height: 1;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  justify-items: start;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: 20px;
+  margin-right: 21px;
+  margin-bottom: 23px;
+  padding-top: 26px;
+  padding-left: 24px;
+  padding-right: 25px;
+  padding-bottom: 27px;
+}
+
+<styled.div
+  ai="flex-end"
+  as="p"
+  bg="white"
+  bs="border-box"
+  color="black"
+  dp="flex"
+  fd="column"
+  fs="18px"
+  fw="wrap"
+  height="100px"
+  jc="flex-start"
+  ji="start"
+  lh="1"
+  m="10px"
+  mb="23px"
+  ml="20px"
+  mr="21px"
+  mt="22px"
+  p="10px"
+  pb="27px"
+  pl="24px"
+  pr="25px"
+  pt="26px"
+  ta="center"
+  width="180px"
+>
+  <StyledComponent
+    ai="flex-end"
+    as="p"
+    bg="white"
+    bs="border-box"
+    color="black"
+    dp="flex"
+    fd="column"
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  ",
+            [Function],
+            "
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "foldedComponentIds": Array [],
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    fs="18px"
+    fw="wrap"
+    height="100px"
+    jc="flex-start"
+    ji="start"
+    lh="1"
+    m="10px"
+    mb="23px"
+    ml="20px"
+    mr="21px"
+    mt="22px"
+    p="10px"
+    pb="27px"
+    pl="24px"
+    pr="25px"
+    pt="26px"
+    ta="center"
+    width="180px"
+  >
+    <p
+      className="c0"
+      color="black"
+      height="100px"
+      width="180px"
+    >
+      content
+    </p>
+  </StyledComponent>
+</styled.div>
+`;
