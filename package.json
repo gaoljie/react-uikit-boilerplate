@@ -17,6 +17,14 @@
     }
   },
   "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
     "coverageThreshold": {
       "global": {
         "branches": 100,
@@ -29,7 +37,7 @@
       ".story.js"
     ],
     "setupFilesAfterEnv": [
-      "<rootDir>/jest.setup.js"
+      "<rootDir>/jest.setup.ts"
     ],
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
@@ -45,11 +53,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
-    "@babel/preset-env": "^7.7.7",
     "@rollup/plugin-multi-entry": "^3.0.0",
     "@rollup/plugin-node-resolve": "^6.0.0",
     "@storybook/addon-info": "^5.2.8",
     "@storybook/react": "^5.2.8",
+    "@types/enzyme": "^3.10.4",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "^24.0.24",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
