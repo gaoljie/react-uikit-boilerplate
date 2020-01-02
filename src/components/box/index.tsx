@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { size, SizeProp } from "../../types";
-import { theme } from "../theme";
+import theme from "../theme";
 
 function getPropWithSize(
   prop: SizeProp | string | number | undefined,
