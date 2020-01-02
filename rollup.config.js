@@ -30,7 +30,7 @@ const entries = glob
 const config = [
   merge(
     {
-      input: ["src/components/**/index.ts?(x)", "src/svg/**/*.svg"],
+      input: ["src/index.ts", "src/svg/**/*.svg"],
       output: [
         {
           format: "cjs",
