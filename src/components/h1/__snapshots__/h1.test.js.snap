@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test H1 H1 Test 1`] = `
+.c0 {
+  font-family: Montserrat;
+  color: #333333;
+  font-size: 60px;
+  line-height: 1;
+}
+
+<H1>
+  <Styled(styled.div)
+    as="h1"
+  >
+    <StyledComponent
+      as="h1"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  font-family: ",
+              "Montserrat",
+              ";
+  color: ",
+              [Function],
+              ";
+  font-size: 60px;
+  line-height: 1;
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <h1
+        className="c0"
+      >
+        Primary
+      </h1>
+    </StyledComponent>
+  </Styled(styled.div)>
+</H1>
+`;

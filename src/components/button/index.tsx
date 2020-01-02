@@ -10,7 +10,6 @@ const Button: React.FC<ButtonProps> = props => {
 export interface ButtonProps {
   children?: React.ReactNode;
   onClick?: React.MouseEventHandler<HTMLElement>;
-  as?: string;
   href?: string;
   disable?: boolean;
 }

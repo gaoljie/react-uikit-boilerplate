@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test H5 H5 Test 1`] = `
+.c0 {
+  font-family: Work Sans;
+  color: #333333;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media (max-width:769px) {
+  .c0 {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+<H5>
+  <Styled(styled.div)
+    as="h5"
+  >
+    <StyledComponent
+      as="h5"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  font-family: ",
+              "Work Sans",
+              ";
+  color: ",
+              [Function],
+              ";
+  font-size: 13px;
+  line-height: 20px;
+
+  ",
+              "@media (max-width: 769px)",
+              " {
+    font-size: 12px;
+    line-height: 18px;
+  }
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <h5
+        className="c0"
+      >
+        Primary
+      </h5>
+    </StyledComponent>
+  </Styled(styled.div)>
+</H5>
+`;

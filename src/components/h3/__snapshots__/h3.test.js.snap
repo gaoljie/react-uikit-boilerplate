@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test H3 H3 Test 1`] = `
+.c0 {
+  font-family: Montserrat;
+  color: #333333;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+@media (max-width:769px) {
+  .c0 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+<H3>
+  <Styled(styled.div)
+    as="h3"
+  >
+    <StyledComponent
+      as="h3"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  font-family: ",
+              "Montserrat",
+              ";
+  color: ",
+              [Function],
+              ";
+  font-size: 22px;
+  line-height: 30px;
+
+  ",
+              "@media (max-width: 769px)",
+              " {
+    font-size: 18px;
+    line-height: 26px;
+  }
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <h3
+        className="c0"
+      >
+        Primary
+      </h3>
+    </StyledComponent>
+  </Styled(styled.div)>
+</H3>
+`;
