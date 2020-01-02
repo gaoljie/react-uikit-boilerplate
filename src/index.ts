@@ -1,2 +1,2 @@
-export * from "./components/hello/index";
+export { default as theme } from "./components/theme";
 export { default as Box } from "./components/box";
