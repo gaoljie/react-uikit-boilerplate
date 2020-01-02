@@ -7,17 +7,17 @@ import merge from "webpack-merge";
 
 const base = {
   external: ["react", "react-dom", "styled-components"],
-  plugins: [ts(), resolve(), multi()]
+  plugins: [ts(), resolve()]
 };
 
 const entries = glob
-  .sync("./src/components/**/index.ts?(x)")
+  .sync("./src/components/**/index.tsx")
   .map(item => {
     return item.split("/")[3];
   })
   .map(componentName => {
     return {
-      input: `src/components/${componentName}/index.ts?(x)`,
+      input: `src/components/${componentName}/index.tsx`,
       output: {
         file: `lib/${componentName}/index.js`,
         format: "cjs",
@@ -42,6 +42,7 @@ const config = [
     base,
     {
       plugins: [
+        multi(),
         svgSprite({
           outputFolder: "lib"
         })
