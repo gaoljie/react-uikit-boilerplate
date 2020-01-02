@@ -1,4 +1,4 @@
-import typescript from "rollup-plugin-typescript2";
+import ts from "@wessberg/rollup-plugin-ts";
 import resolve from "@rollup/plugin-node-resolve";
 
 const config = {
@@ -10,6 +10,6 @@ const config = {
     }
   ],
   external: ["react", "styled-components"],
-  plugins: [typescript(), resolve()]
+  plugins: [ts(), resolve()]
 };
 export default config;
