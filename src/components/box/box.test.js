@@ -120,6 +120,41 @@ describe("Test Box", () => {
 
     expect(wrapper).not.toHaveStyleRule("grid-column", `span 1`);
 
+    wrapper.setProps({ xl: 4 });
+
+    expect(wrapper).toHaveStyleRule("grid-column", `span 4`);
+
+    expect(wrapper).toHaveStyleRule("grid-column", `span 4`, {
+      media: theme.smallDesktop.slice(7)
+    });
+    expect(wrapper).toHaveStyleRule("grid-column", `span 4`, {
+      media: theme.tablet.slice(7)
+    });
+    expect(wrapper).toHaveStyleRule("grid-column", `span 4`, {
+      media: theme.mobile.slice(7)
+    });
+
+    wrapper.setProps({ lg: 3 });
+
+    expect(wrapper).toHaveStyleRule("grid-column", `span 3`, {
+      media: theme.smallDesktop.slice(7)
+    });
+    expect(wrapper).toHaveStyleRule("grid-column", `span 3`, {
+      media: theme.tablet.slice(7)
+    });
+    expect(wrapper).toHaveStyleRule("grid-column", `span 3`, {
+      media: theme.mobile.slice(7)
+    });
+
+    wrapper.setProps({ md: 2 });
+
+    expect(wrapper).toHaveStyleRule("grid-column", `span 2`, {
+      media: theme.tablet.slice(7)
+    });
+    expect(wrapper).toHaveStyleRule("grid-column", `span 2`, {
+      media: theme.mobile.slice(7)
+    });
+
     wrapper.setProps({ xl: 4, lg: 3, md: 2, sm: 2 });
 
     expect(wrapper).toHaveStyleRule("grid-column", `span 4`);

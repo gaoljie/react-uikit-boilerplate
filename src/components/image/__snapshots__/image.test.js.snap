@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Image Matches the snapshot 1`] = `
+<LazyLoad
+  offset={200}
+  once={false}
+  overflow={false}
+  placeholder={
+    <ForwardRef(styled.div)
+      alt="image"
+      h={110}
+      height="200px"
+      of="cover"
+      src="url.com"
+      w={180}
+      width="200px"
+    />
+  }
+  resize={false}
+  scroll={true}
+  unmountIfInvisible={false}
+>
+  <Styled(styled.div)
+    alt="image"
+    as="img"
+    h={110}
+    height="200px"
+    of="cover"
+    src="https://res.cloudinary.com/helloyumi/image/upload/q_70/w_180,h_110/s3/url.com"
+    w={180}
+    width="200px"
+  />
+</LazyLoad>
+`;
