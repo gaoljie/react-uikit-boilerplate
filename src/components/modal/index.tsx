@@ -31,7 +31,7 @@ const Modal: React.FC<ModalProps> = ({
   visible = false
 }) => {
   const hasBgAttr = children.type.componentStyle.rules.some(
-    (rule: string | string[]) =>
+    (rule: string) =>
       rule.includes("background:") || rule.includes("background-color:")
   );
 
