@@ -5,10 +5,10 @@ import theme from "../theme";
 
 export interface TabProps {
   title: (string & JSX.Element) | string;
-  selected: boolean;
-  onClick: React.MouseEventHandler<HTMLElement>;
-  clickable: boolean;
-  opacity: number;
+  selected?: boolean;
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  clickable?: boolean;
+  opacity?: number;
   children: React.ReactNode;
 }
 

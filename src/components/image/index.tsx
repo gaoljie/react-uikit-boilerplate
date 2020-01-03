@@ -10,7 +10,7 @@ export interface ImageProps {
   w?: number;
   h?: number;
   offset?: number;
-  alt: string;
+  alt?: string;
   lazyLoad?: boolean;
   overflow?: boolean;
   of?: "fill" | "contain" | "cover" | "none" | "scale-down";
