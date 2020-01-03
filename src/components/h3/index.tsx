@@ -3,8 +3,7 @@ import styled from "styled-components";
 import Box from "../box";
 import theme from "../theme";
 
-export interface H3 {
-  children?: React.ReactNode;
+export interface H3Props {
   color?: string;
 }
 
@@ -20,6 +19,6 @@ const StyledH3 = styled(Box)`
   }
 `;
 
-const H3: React.FC<H3> = props => <StyledH3 {...props} as="h3" />;
+const H3: React.FC<H3Props> = props => <StyledH3 {...props} as="h3" />;
 
 export default H3;

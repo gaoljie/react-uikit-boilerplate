@@ -3,8 +3,7 @@ import styled from "styled-components";
 import Box from "../box";
 import theme from "../theme";
 
-export interface H2 {
-  children?: React.ReactNode;
+export interface H2Props {
   color?: string;
 }
 
@@ -20,6 +19,6 @@ const StyledH2 = styled(Box)`
   }
 `;
 
-const H2: React.FC<H2> = props => <StyledH2 {...props} as="h2" />;
+const H2: React.FC<H2Props> = props => <StyledH2 {...props} as="h2" />;
 
 export default H2;

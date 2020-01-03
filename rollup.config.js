@@ -2,12 +2,13 @@ import ts from "@wessberg/rollup-plugin-ts";
 import resolve from "@rollup/plugin-node-resolve";
 import svgSprite from "rollup-plugin-svg-sprite";
 import multi from "@rollup/plugin-multi-entry";
+import commonjs from "@rollup/plugin-commonjs";
 import glob from "glob";
 import merge from "webpack-merge";
 
 const base = {
   external: ["react", "react-dom", "styled-components"],
-  plugins: [ts(), resolve()]
+  plugins: [ts(), resolve(), commonjs()]
 };
 
 const entries = glob
