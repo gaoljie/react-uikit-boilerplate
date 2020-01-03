@@ -4,6 +4,9 @@ import Box from "../box";
 import theme from "../theme";
 
 export interface InputProps {
+  onChange?: (
+    event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => void;
   type:
     | "button"
     | "checkbox"

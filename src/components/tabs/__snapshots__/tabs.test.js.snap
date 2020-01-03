@@ -1,0 +1,1402 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Tab Matches the snapshot 1`] = `
+.c2 {
+  height: 20px;
+}
+
+.c0 {
+  display: grid;
+  grid-column-gap: 10px;
+  font-family: Montserrat;
+  grid-template-columns: repeat( 5, auto );
+  justify-items: center;
+}
+
+.c1 {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 2px solid #EF6F35;
+  color: #EF6F35;
+  opacity: 1;
+  text-align: center;
+}
+
+.c3 {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  color: #EF6F35;
+  opacity: 0.5;
+  text-align: center;
+}
+
+<Tabs
+  gap="10px"
+>
+  <Styled(styled.div)
+    as="nav"
+    gap="10px"
+  >
+    <StyledComponent
+      as="nav"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  display: grid;
+  grid-column-gap: ",
+              [Function],
+              ";
+  font-family: ",
+              "Montserrat",
+              ";
+  grid-template-columns: repeat(
+    ",
+              [Function],
+              ",
+    auto
+  );
+  justify-items: center;
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      gap="10px"
+    >
+      <nav
+        className="c0"
+      >
+        <Tab
+          key=".$_OneOffPurchase/nytone.svg"
+          onClick={[Function]}
+          selected={true}
+          title={
+            <Image
+              alt="The New York Times"
+              clickable={true}
+              content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+              height="20px"
+              src="_OneOffPurchase/nytone.svg"
+            />
+          }
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={true}
+            title={
+              <Image
+                alt="The New York Times"
+                clickable={true}
+                content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                height="20px"
+                src="_OneOffPurchase/nytone.svg"
+              />
+            }
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={true}
+              title={
+                <Image
+                  alt="The New York Times"
+                  clickable={true}
+                  content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                  height="20px"
+                  src="_OneOffPurchase/nytone.svg"
+                />
+              }
+            >
+              <div
+                className="c1"
+                onClick={[Function]}
+                selected={true}
+                title={
+                  <Image
+                    alt="The New York Times"
+                    clickable={true}
+                    content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                    height="20px"
+                    src="_OneOffPurchase/nytone.svg"
+                  />
+                }
+              >
+                <Image
+                  alt="The New York Times"
+                  clickable={true}
+                  content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                  height="20px"
+                  src="_OneOffPurchase/nytone.svg"
+                >
+                  <LazyLoad
+                    offset={200}
+                    once={false}
+                    overflow={false}
+                    placeholder={
+                      <ForwardRef(styled.div)
+                        alt="The New York Times"
+                        clickable={true}
+                        content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                        height="20px"
+                        src="_OneOffPurchase/nytone.svg"
+                      />
+                    }
+                    resize={false}
+                    scroll={true}
+                    unmountIfInvisible={false}
+                  >
+                    <styled.div
+                      alt="The New York Times"
+                      clickable={true}
+                      content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                      height="20px"
+                      src="_OneOffPurchase/nytone.svg"
+                    >
+                      <StyledComponent
+                        alt="The New York Times"
+                        clickable={true}
+                        content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "
+  ",
+                                [Function],
+                                "
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="20px"
+                        src="_OneOffPurchase/nytone.svg"
+                      >
+                        <div
+                          alt="The New York Times"
+                          className="c2"
+                          content="\\"Make room, Gerber Babies, for the Goo-Goo Gourmets.\\""
+                          height="20px"
+                          src="_OneOffPurchase/nytone.svg"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </LazyLoad>
+                </Image>
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+        <Tab
+          key=".$_HomePageRefresh/FoodNWine.svg"
+          onClick={[Function]}
+          selected={false}
+          title={
+            <Image
+              alt="Food & Wine"
+              clickable={true}
+              content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+              height="20px"
+              src="_HomePageRefresh/FoodNWine.svg"
+            />
+          }
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={false}
+            title={
+              <Image
+                alt="Food & Wine"
+                clickable={true}
+                content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                height="20px"
+                src="_HomePageRefresh/FoodNWine.svg"
+              />
+            }
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={false}
+              title={
+                <Image
+                  alt="Food & Wine"
+                  clickable={true}
+                  content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                  height="20px"
+                  src="_HomePageRefresh/FoodNWine.svg"
+                />
+              }
+            >
+              <div
+                className="c3"
+                onClick={[Function]}
+                selected={false}
+                title={
+                  <Image
+                    alt="Food & Wine"
+                    clickable={true}
+                    content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                    height="20px"
+                    src="_HomePageRefresh/FoodNWine.svg"
+                  />
+                }
+              >
+                <Image
+                  alt="Food & Wine"
+                  clickable={true}
+                  content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                  height="20px"
+                  src="_HomePageRefresh/FoodNWine.svg"
+                >
+                  <LazyLoad
+                    offset={200}
+                    once={false}
+                    overflow={false}
+                    placeholder={
+                      <ForwardRef(styled.div)
+                        alt="Food & Wine"
+                        clickable={true}
+                        content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                        height="20px"
+                        src="_HomePageRefresh/FoodNWine.svg"
+                      />
+                    }
+                    resize={false}
+                    scroll={true}
+                    unmountIfInvisible={false}
+                  >
+                    <styled.div
+                      alt="Food & Wine"
+                      clickable={true}
+                      content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                      height="20px"
+                      src="_HomePageRefresh/FoodNWine.svg"
+                    >
+                      <StyledComponent
+                        alt="Food & Wine"
+                        clickable={true}
+                        content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "
+  ",
+                                [Function],
+                                "
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="20px"
+                        src="_HomePageRefresh/FoodNWine.svg"
+                      >
+                        <div
+                          alt="Food & Wine"
+                          className="c2"
+                          content="\\"Admit it: If you order these meals, your baby will eat more adventurously than you do.\\""
+                          height="20px"
+                          src="_HomePageRefresh/FoodNWine.svg"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </LazyLoad>
+                </Image>
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+        <Tab
+          key=".$_OneOffPurchase/goopone.svg"
+          onClick={[Function]}
+          selected={false}
+          title={
+            <Image
+              alt="goop"
+              clickable={true}
+              content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+              height="20px"
+              src="_OneOffPurchase/goopone.svg"
+            />
+          }
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={false}
+            title={
+              <Image
+                alt="goop"
+                clickable={true}
+                content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                height="20px"
+                src="_OneOffPurchase/goopone.svg"
+              />
+            }
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={false}
+              title={
+                <Image
+                  alt="goop"
+                  clickable={true}
+                  content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                  height="20px"
+                  src="_OneOffPurchase/goopone.svg"
+                />
+              }
+            >
+              <div
+                className="c3"
+                onClick={[Function]}
+                selected={false}
+                title={
+                  <Image
+                    alt="goop"
+                    clickable={true}
+                    content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                    height="20px"
+                    src="_OneOffPurchase/goopone.svg"
+                  />
+                }
+              >
+                <Image
+                  alt="goop"
+                  clickable={true}
+                  content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                  height="20px"
+                  src="_OneOffPurchase/goopone.svg"
+                >
+                  <LazyLoad
+                    offset={200}
+                    once={false}
+                    overflow={false}
+                    placeholder={
+                      <ForwardRef(styled.div)
+                        alt="goop"
+                        clickable={true}
+                        content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                        height="20px"
+                        src="_OneOffPurchase/goopone.svg"
+                      />
+                    }
+                    resize={false}
+                    scroll={true}
+                    unmountIfInvisible={false}
+                  >
+                    <styled.div
+                      alt="goop"
+                      clickable={true}
+                      content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                      height="20px"
+                      src="_OneOffPurchase/goopone.svg"
+                    >
+                      <StyledComponent
+                        alt="goop"
+                        clickable={true}
+                        content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "
+  ",
+                                [Function],
+                                "
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="20px"
+                        src="_OneOffPurchase/goopone.svg"
+                      >
+                        <div
+                          alt="goop"
+                          className="c2"
+                          content="\\"Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure.\\""
+                          height="20px"
+                          src="_OneOffPurchase/goopone.svg"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </LazyLoad>
+                </Image>
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+        <Tab
+          key=".$_HomePageRefresh/CNN.svg"
+          onClick={[Function]}
+          selected={false}
+          title={
+            <Image
+              alt="CNN"
+              clickable={false}
+              content={
+                <a
+                  href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                >
+                  See the CNN video here.
+                </a>
+              }
+              height="20px"
+              src="_HomePageRefresh/CNN.svg"
+            />
+          }
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={false}
+            title={
+              <Image
+                alt="CNN"
+                clickable={false}
+                content={
+                  <a
+                    href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                  >
+                    See the CNN video here.
+                  </a>
+                }
+                height="20px"
+                src="_HomePageRefresh/CNN.svg"
+              />
+            }
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={false}
+              title={
+                <Image
+                  alt="CNN"
+                  clickable={false}
+                  content={
+                    <a
+                      href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                    >
+                      See the CNN video here.
+                    </a>
+                  }
+                  height="20px"
+                  src="_HomePageRefresh/CNN.svg"
+                />
+              }
+            >
+              <div
+                className="c3"
+                onClick={[Function]}
+                selected={false}
+                title={
+                  <Image
+                    alt="CNN"
+                    clickable={false}
+                    content={
+                      <a
+                        href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                      >
+                        See the CNN video here.
+                      </a>
+                    }
+                    height="20px"
+                    src="_HomePageRefresh/CNN.svg"
+                  />
+                }
+              >
+                <Image
+                  alt="CNN"
+                  clickable={false}
+                  content={
+                    <a
+                      href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                    >
+                      See the CNN video here.
+                    </a>
+                  }
+                  height="20px"
+                  src="_HomePageRefresh/CNN.svg"
+                >
+                  <LazyLoad
+                    offset={200}
+                    once={false}
+                    overflow={false}
+                    placeholder={
+                      <ForwardRef(styled.div)
+                        alt="CNN"
+                        clickable={false}
+                        content={
+                          <a
+                            href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                          >
+                            See the CNN video here.
+                          </a>
+                        }
+                        height="20px"
+                        src="_HomePageRefresh/CNN.svg"
+                      />
+                    }
+                    resize={false}
+                    scroll={true}
+                    unmountIfInvisible={false}
+                  >
+                    <styled.div
+                      alt="CNN"
+                      clickable={false}
+                      content={
+                        <a
+                          href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                        >
+                          See the CNN video here.
+                        </a>
+                      }
+                      height="20px"
+                      src="_HomePageRefresh/CNN.svg"
+                    >
+                      <StyledComponent
+                        alt="CNN"
+                        clickable={false}
+                        content={
+                          <a
+                            href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                          >
+                            See the CNN video here.
+                          </a>
+                        }
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "
+  ",
+                                [Function],
+                                "
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="20px"
+                        src="_HomePageRefresh/CNN.svg"
+                      >
+                        <div
+                          alt="CNN"
+                          className="c2"
+                          content={
+                            <a
+                              href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+                            >
+                              See the CNN video here.
+                            </a>
+                          }
+                          height="20px"
+                          src="_HomePageRefresh/CNN.svg"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </LazyLoad>
+                </Image>
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+        <Tab
+          key=".$_HomePageRefresh/Inc.svg"
+          onClick={[Function]}
+          selected={false}
+          title={
+            <Image
+              alt="Inc"
+              clickable={true}
+              content={
+                <a
+                  href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                >
+                  See the Inc. video here.
+                </a>
+              }
+              height="20px"
+              src="_HomePageRefresh/Inc.svg"
+            />
+          }
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={false}
+            title={
+              <Image
+                alt="Inc"
+                clickable={true}
+                content={
+                  <a
+                    href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                  >
+                    See the Inc. video here.
+                  </a>
+                }
+                height="20px"
+                src="_HomePageRefresh/Inc.svg"
+              />
+            }
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c3",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={false}
+              title={
+                <Image
+                  alt="Inc"
+                  clickable={true}
+                  content={
+                    <a
+                      href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                    >
+                      See the Inc. video here.
+                    </a>
+                  }
+                  height="20px"
+                  src="_HomePageRefresh/Inc.svg"
+                />
+              }
+            >
+              <div
+                className="c3"
+                onClick={[Function]}
+                selected={false}
+                title={
+                  <Image
+                    alt="Inc"
+                    clickable={true}
+                    content={
+                      <a
+                        href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                      >
+                        See the Inc. video here.
+                      </a>
+                    }
+                    height="20px"
+                    src="_HomePageRefresh/Inc.svg"
+                  />
+                }
+              >
+                <Image
+                  alt="Inc"
+                  clickable={true}
+                  content={
+                    <a
+                      href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                    >
+                      See the Inc. video here.
+                    </a>
+                  }
+                  height="20px"
+                  src="_HomePageRefresh/Inc.svg"
+                >
+                  <LazyLoad
+                    offset={200}
+                    once={false}
+                    overflow={false}
+                    placeholder={
+                      <ForwardRef(styled.div)
+                        alt="Inc"
+                        clickable={true}
+                        content={
+                          <a
+                            href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                          >
+                            See the Inc. video here.
+                          </a>
+                        }
+                        height="20px"
+                        src="_HomePageRefresh/Inc.svg"
+                      />
+                    }
+                    resize={false}
+                    scroll={true}
+                    unmountIfInvisible={false}
+                  >
+                    <styled.div
+                      alt="Inc"
+                      clickable={true}
+                      content={
+                        <a
+                          href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                        >
+                          See the Inc. video here.
+                        </a>
+                      }
+                      height="20px"
+                      src="_HomePageRefresh/Inc.svg"
+                    >
+                      <StyledComponent
+                        alt="Inc"
+                        clickable={true}
+                        content={
+                          <a
+                            href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                          >
+                            See the Inc. video here.
+                          </a>
+                        }
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bdVaJa",
+                              "isStatic": false,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "
+  ",
+                                [Function],
+                                "
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bdVaJa",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        height="20px"
+                        src="_HomePageRefresh/Inc.svg"
+                      >
+                        <div
+                          alt="Inc"
+                          className="c2"
+                          content={
+                            <a
+                              href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+                            >
+                              See the Inc. video here.
+                            </a>
+                          }
+                          height="20px"
+                          src="_HomePageRefresh/Inc.svg"
+                        />
+                      </StyledComponent>
+                    </styled.div>
+                  </LazyLoad>
+                </Image>
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+      </nav>
+    </StyledComponent>
+  </Styled(styled.div)>
+  <p
+    hidden={false}
+    key=".$_OneOffPurchase/nytone.svg"
+  >
+    "Make room, Gerber Babies, for the Goo-Goo Gourmets."
+  </p>
+  <p
+    hidden={true}
+    key=".$_HomePageRefresh/FoodNWine.svg"
+  >
+    "Admit it: If you order these meals, your baby will eat more adventurously than you do."
+  </p>
+  <p
+    hidden={true}
+    key=".$_OneOffPurchase/goopone.svg"
+  >
+    "Yumi, an adorable new pediatrician/nutritionist-approved baby-food delivery company, makes the whole experience a pleasure."
+  </p>
+  <a
+    hidden={true}
+    href="https://money.cnn.com/video/technology/2018/02/06/yumi-subscription-delivery-baby-food.cnnmoney/index.html"
+    key=".$_HomePageRefresh/CNN.svg"
+  >
+    See the CNN video here.
+  </a>
+  <a
+    hidden={true}
+    href="https://www.inc.com/video/2-female-founders-share-the-importance-of-building-a-brand-not-just-a-product.html"
+    key=".$_HomePageRefresh/Inc.svg"
+  >
+    See the Inc. video here.
+  </a>
+</Tabs>
+`;
+
+exports[`Test Tab Tab Array Snapshot 1`] = `
+.c0 {
+  display: grid;
+  grid-column-gap: 0;
+  font-family: Montserrat;
+  grid-template-columns: repeat( 2, auto );
+  justify-items: center;
+}
+
+.c1 {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 2px solid #EF6F35;
+  color: #EF6F35;
+  opacity: 1;
+  text-align: center;
+}
+
+.c2 {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 2px solid transparent;
+  color: #EF6F35;
+  opacity: 0.5;
+  text-align: center;
+}
+
+<Tabs>
+  <Styled(styled.div)
+    as="nav"
+  >
+    <StyledComponent
+      as="nav"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  ",
+              [Function],
+              "
+",
+              "
+  display: grid;
+  grid-column-gap: ",
+              [Function],
+              ";
+  font-family: ",
+              "Montserrat",
+              ";
+  grid-template-columns: repeat(
+    ",
+              [Function],
+              ",
+    auto
+  );
+  justify-items: center;
+",
+            ],
+          },
+          "displayName": "Styled(styled.div)",
+          "foldedComponentIds": Array [
+            "sc-bdVaJa",
+          ],
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <nav
+        className="c0"
+      >
+        <Tab
+          key=".0"
+          onClick={[Function]}
+          selected={true}
+          title="normal"
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={true}
+            title="normal"
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c2",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={true}
+              title="normal"
+            >
+              <div
+                className="c1"
+                onClick={[Function]}
+                selected={true}
+                title="normal"
+              >
+                normal
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+        <Tab
+          key=".1"
+          onClick={[Function]}
+          selected={false}
+          title="two childrens"
+        >
+          <Styled(styled.div)
+            clickable={true}
+            onClick={[Function]}
+            selected={false}
+            title="two childrens"
+          >
+            <StyledComponent
+              clickable={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-htpNat",
+                    "isStatic": false,
+                    "lastClassName": "c2",
+                    "rules": Array [
+                      "
+  ",
+                      [Function],
+                      "
+",
+                      "
+  ",
+                      [Function],
+                      ";
+  width: 100%;
+  border-bottom: 2px solid
+    ",
+                      [Function],
+                      ";
+  color: ",
+                      "#EF6F35",
+                      ";
+  opacity: ",
+                      [Function],
+                      ";
+  text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "Styled(styled.div)",
+                  "foldedComponentIds": Array [
+                    "sc-bdVaJa",
+                  ],
+                  "render": [Function],
+                  "styledComponentId": "sc-htpNat",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+              onClick={[Function]}
+              selected={false}
+              title="two childrens"
+            >
+              <div
+                className="c2"
+                onClick={[Function]}
+                selected={false}
+                title="two childrens"
+              >
+                two childrens
+              </div>
+            </StyledComponent>
+          </Styled(styled.div)>
+        </Tab>
+      </nav>
+    </StyledComponent>
+  </Styled(styled.div)>
+  <p
+    hidden={false}
+    key=".0"
+  >
+    1
+  </p>
+  <div
+    hidden={true}
+    key=".1"
+  >
+    <p>
+      1
+    </p>
+    <p>
+      2
+    </p>
+  </div>
+</Tabs>
+`;

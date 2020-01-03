@@ -6,10 +6,17 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "prettier"
   ],
-  "plugins": ["@typescript-eslint", "jest"]
+  "plugins": ["@typescript-eslint", "jest"],
+  "rules": {
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-empty-function": 0,
+    "@typescript-eslint/no-unused-vars": "error",
+    "react/prop-types": 0
+  }
 }

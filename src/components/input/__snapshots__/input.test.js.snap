@@ -13,6 +13,7 @@ exports[`Test Input Matches the snapshot 1`] = `
 
 <Input
   name="email"
+  onChange={[Function]}
   placeholder="Please Input Email"
   type="email"
   value="aa@bb.com"
@@ -21,6 +22,7 @@ exports[`Test Input Matches the snapshot 1`] = `
   <Styled(styled.div)
     as="input"
     name="email"
+    onChange={[Function]}
     placeholder="Please Input Email"
     type="email"
     value="aa@bb.com"
@@ -68,6 +70,7 @@ exports[`Test Input Matches the snapshot 1`] = `
       }
       forwardedRef={null}
       name="email"
+      onChange={[Function]}
       placeholder="Please Input Email"
       type="email"
       value="aa@bb.com"
@@ -76,6 +79,7 @@ exports[`Test Input Matches the snapshot 1`] = `
       <input
         className="c0"
         name="email"
+        onChange={[Function]}
         placeholder="Please Input Email"
         type="email"
         value="aa@bb.com"

@@ -1,2 +1,17 @@
 export { default as theme } from "./components/theme";
+export { default as Button } from "./components/button";
+export { default as Image } from "./components/image";
+export { default as Input } from "./components/input";
 export { default as Box } from "./components/box";
+export { default as Modal } from "./components/modal";
+export { default as Circle } from "./components/circle";
+export { default as Line } from "./components/line";
+export { default as Row } from "./components/row";
+export { default as H1 } from "./components/h1";
+export { default as H2 } from "./components/h2";
+export { default as H3 } from "./components/h3";
+export { default as H4 } from "./components/h4";
+export { default as H5 } from "./components/h5";
+export { default as Icon } from "./components/icon";
+export { default as Tab } from "./components/tab";
+export { default as Tabs } from "./components/tabs";

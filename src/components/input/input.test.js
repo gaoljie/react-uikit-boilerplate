@@ -14,7 +14,12 @@ const props = {
 
 describe("Test Input", () => {
   it("Matches the snapshot", () => {
-    const wrapper = mount(<Input {...props} />);
+    const wrapper = mount(
+      <Input
+        {...props}
+        onChange={e => wrapper.setProps({ value: e.target.value })}
+      />
+    );
     expect(wrapper).toMatchSnapshot();
   });
 
