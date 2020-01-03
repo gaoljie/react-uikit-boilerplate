@@ -1,6 +1,6 @@
 {
   "name": "react-uikit-boilerplate",
-  "version": "1.0.31",
+  "version": "1.0.32",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "author": "Jay Gao <gaoljie@gmail.com>",
